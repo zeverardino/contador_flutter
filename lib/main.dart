@@ -98,7 +98,7 @@ class _HomePageState extends State<HomePage> {
             Text( isFull ? (isZerado ? 'Fechado' : 'Lotado') : 'Pode entrar',
               style: TextStyle(
                   fontSize: 46,
-                  color: Colors.red,
+                  color: isFull ? Colors.red : Colors.lightGreenAccent,
                   fontWeight: FontWeight.w500
               ),
             ),
